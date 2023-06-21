@@ -1,4 +1,4 @@
-
+"use strict"
 //Слайдер для першого блоку
 const swiper = new Swiper(".swiper", {
     effect: "fade",
@@ -34,7 +34,7 @@ menuBtn.addEventListener('click', () => {
 function submitForm(event) {
     event.preventDefault(); // Запобігаємо відправці форми
 
-    // Кодя для обробки форми
+    // Код  для обробки форми
 
     // Відкриваємо нову сторінку
     window.open("confirm.html", "_blank");
@@ -44,3 +44,5 @@ function submitForm(event) {
         window.history.back();
     }, 2000); // Затримка 2 секунди
 }
+
+

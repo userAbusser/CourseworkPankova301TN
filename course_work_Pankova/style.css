@@ -184,7 +184,7 @@ iframe{
     background-position: center;
 }
 
-.swiper-pagination-bullet{
+.swiper-pagination-bullet{ 
     width: 120px;
     height: 3px;
     background-color: black;
@@ -245,6 +245,7 @@ iframe{
 .event-img{
     width: 350px;
     height: 300px;
+    max-width: 100%;
 }
 
 .event{
@@ -273,9 +274,7 @@ iframe{
     font-family: 'Merriweather', serif;
   }
   
-  .event-img {
-    max-width: 100%;
-  }
+  
   
  
   
@@ -431,6 +430,7 @@ iframe{
  }
 
 
+  
   @media(max-width: 1280px){
 
 .museums-list{
@@ -441,7 +441,7 @@ iframe{
     width: 100%;    
 }
 
-.events-content {
+.event-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
@@ -524,7 +524,7 @@ iframe{
         
      } 
 
-     .events-content {
+     .event-content {
         display: grid;
         grid-template-columns: 1fr;
         justify-items: center;
@@ -542,3 +542,4 @@ iframe{
         }
 
 }
+
